@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+}
+.logo{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: blueviolet;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main_form{
+    width: 900px;
+    height: 850px;
+    background-color: #6B5ACD;
+    margin-left: 220px;
+}
+.form {
+    padding: 20px 20px;
+}
+.address{
+    float: left;
+}
+table{
+    text-align: center;
+}
+.form label {
+    display: inline-block;
+    width: 200px;
+    font-weight: bold;
+}
+.form div {
+    margin: 20px 0;
+}
+.main_info {
+    margin-top: 60px;
+    text-align: center;
+}
+.thankyou-img {
+    height: 300px;
+    width: 300px;
+}
+.thankyou-h2{
+    color: rgb(116, 180, 21);
+    font-size: 40px;
+}
+.text-p {
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(122, 20, 126);
+}

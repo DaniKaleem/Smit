@@ -1,4 +1,68 @@
-h1,p,body{
-    color: red;
-    background-color: aqua;
+*{margin: auto;}
+a{
+    text-decoration: none;
+    font-size: 30px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+a:link{
+    color: #2cccc1;
+}
+a:visited{
+    color: purple;
+}
+body{
+    background-color: black ;
+}
+.boxone,.boxtwo,.boxthree{
+    width: 250px;
+    height: 220px;
+    padding: 20px;
+    background-color: #223d61;
+    border: 3px solid #39a5a0;
+}
+.hover:hover{
+    border: 3px solid #0ffff3;
+    background-color: #007bffc5 ;
+    transition: 1s;
+}
+.container{
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center ;
+    flex-wrap: wrap;
+}
+.main{
+    text-align: center;
+    color: #c5c6c7;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container0{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.logo{
+    margin-top: 40px;
+    padding: 20px;
+    flex: 1;
+}
+.heading{
+    font-size: 70px;
+    flex: 2;
+    padding: 10px;
+}
+.heading:hover{
+    font-size: 72px;
+}
+.green{
+    color: rgb(21, 175, 21);
+}
+.blue{
+    color:  #086ad3e8;
 }
